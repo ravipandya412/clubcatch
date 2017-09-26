@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="#1e8bc3" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_gravity="11" android:id="@id/profile_picture" android:layout_width="-1" android:layout_height="200sp" android:layout_margin="10sp" android:src="@drawable/usericon" />
+        <EditText android:textColor="#737373" android:textColorHint="#999966" android:id="@id/username_reg" android:background="#ffffff" android:padding="10sp" android:layout_width="-1" android:layout_height="45sp" android:layout_margin="10sp" android:hint="@string/enter_username" android:ems="10" android:drawableLeft="@drawable/user" android:drawablePadding="20sp" android:inputType="61" />
+        <EditText android:textColor="#737373" android:textColorHint="#999966" android:id="@id/phone_num" android:background="#ffffff" android:padding="10sp" android:layout_width="-1" android:layout_height="45sp" android:layout_margin="10sp" android:hint="@string/enter_your_phonenumber" android:ems="10" android:drawableLeft="@drawable/call" android:drawablePadding="20sp" android:inputType="3" />
+        <EditText android:textColor="#737373" android:textColorHint="#999966" android:id="@id/passwrd_reg" android:background="#ffffff" android:padding="10sp" android:layout_width="-1" android:layout_height="45sp" android:layout_margin="10sp" android:hint="@string/enter_your_password" android:ems="10" android:drawableLeft="@drawable/lock_opn" android:drawablePadding="20sp" android:inputType="81" />
+        <EditText android:textColor="#737373" android:textColorHint="#999966" android:id="@id/re_enter_passwrd" android:background="#ffffff" android:padding="10sp" android:layout_width="-1" android:layout_height="45sp" android:layout_margin="10sp" android:hint="@string/re_enter_your_password" android:ems="10" android:drawableLeft="@drawable/key" android:drawablePadding="20sp" android:inputType="81" />
+        <Button android:layout_gravity="11" android:id="@id/register" android:padding="10sp" android:layout_width="200sp" android:layout_height="-2" android:layout_margin="10sp" android:text="@string/register" style="@style/cstmbtn" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#000" android:id="@id/tv" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:text="hhggggggggg" />

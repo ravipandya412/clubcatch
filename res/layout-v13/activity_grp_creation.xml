@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#1e8bc3" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_gravity="11" android:id="@id/grp_icon" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10sp" android:src="@drawable/group_icon" />
+    <EditText android:textColor="#737373" android:textColorHint="#999966" android:id="@id/grp_name" android:background="#ffffff" android:padding="10sp" android:layout_width="-1" android:layout_height="45sp" android:layout_margin="10sp" android:hint="@string/enter_grp_name" android:ems="10" android:drawableLeft="@drawable/grp" android:drawablePadding="20sp" android:inputType="61" android:drawableStart="@drawable/grp" />
+    <Button android:layout_gravity="11" android:id="@id/create" android:padding="10sp" android:layout_width="200sp" android:layout_height="-2" android:layout_margin="10sp" android:text="@string/next" style="@style/cstmbtn" />
+</LinearLayout>

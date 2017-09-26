@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/imageView1" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/walk" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textColor="#000" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:text="TextView" android:layout_toRightOf="@id/imageView1" android:layout_alignParentTop="true" />
+</RelativeLayout>

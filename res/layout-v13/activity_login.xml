@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#1e8bc3" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="200sp" android:textStyle="1" android:textColor="#ffffff" android:gravity="11" android:id="@id/loginlogo" android:layout_width="-1" android:layout_height="250sp" android:layout_margin="15sp" android:text="@string/c" style="@style/cstmtxtvw" />
+        <ProgressBar android:layout_gravity="11" android:id="@id/progressBar1" android:visibility="1" android:layout_width="-2" android:layout_height="-2" />
+        <EditText android:textColor="#737373" android:textColorHint="#999966" android:id="@id/username" android:background="#ffffff" android:padding="10sp" android:layout_width="-1" android:layout_height="45sp" android:layout_margin="10sp" android:hint="@string/enter_username" android:ems="10" android:drawableLeft="@drawable/user" android:drawablePadding="20sp" android:inputType="61" android:drawableStart="@drawable/user" />
+        <EditText android:textColor="#737373" android:textColorHint="#999966" android:id="@id/passwrd" android:background="#ffffff" android:padding="10sp" android:layout_width="-1" android:layout_height="45sp" android:layout_margin="10sp" android:hint="@string/enter_your_password" android:ems="10" android:drawableLeft="@drawable/key" android:drawablePadding="20sp" android:inputType="81" android:drawableStart="@drawable/key" />
+        <Button android:layout_gravity="11" android:id="@id/login" android:padding="10sp" android:layout_width="200sp" android:layout_height="-2" android:layout_margin="10sp" android:text="@string/login" style="@style/cstmbtn" />
+        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_gravity="11" android:id="@id/new_acc" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10sp" android:text="New User?" />
+        <TextView android:textSize="20sp" android:textColor="#ffffff" android:layout_gravity="11" android:id="@id/registration" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10sp" android:text="@string/register_here" />
+    </LinearLayout>
+</ScrollView>

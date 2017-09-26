@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#000" android:id="@id/left_textview" android:background="@drawable/rounded_corner_left" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:text="Large Text" />
+</LinearLayout>
